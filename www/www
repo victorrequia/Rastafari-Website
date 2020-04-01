@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta lang="pt-br"/>
+    <style>
+        h1{
+            font-family: Arial;
+            font-size: 30pt;
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Bem vindo ao servidor rastafari</h1>
+    <h2>Entre na seção criar conta e divirta-se>
+</body>
+</html>
