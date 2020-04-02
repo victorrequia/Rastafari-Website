@@ -1,18 +1,34 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta lang="pt-br"/>
-    <style>
-        h1{
-            font-family: Arial;
-            font-size: 30pt;
-            color: blue;
-        }
 
-    </style>
+<html lang="pt-br">
+	<charset="UTF-8"/>
+	<title>Rastafari-Servergame</title>
+	
+<head>
+	<style>
+		body{
+			background-image: url("imagens/background-artwork4.jpg");
+			color: red;
+		
+		}
+		h1 {
+			font-family: Arial;
+			font-size: 30;
+			color: yellow;
+			text-shadow: 2px 2px 2px black;
+		}
+	</style>
 </head>
 <body>
-    <h1>Bem vindo ao servidor rastafari</h1>
-    <h2>Entre na seção criar conta e divirta-se>
+	<h1 style="text-align: center;"> SEJA BEM VINDO A RASTAFARI SERVERGAME</h1>
+	<h2>Obejetivos do servidor:</h2>
+	<p>Rastafari tem como foco o pvp e quests, trazendo diversos novos mistérios, montros e lugares de caça para exploração</p>
+	<p>Divirta-se!<p>
+	
+	<image src="imagens/background.png"/>
+	
+	<h2>Para começar, faça sua conta na seção "Account Management"</h2>
+
+
 </body>
 </html>
