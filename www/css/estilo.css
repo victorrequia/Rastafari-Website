@@ -1,17 +1,73 @@
 @charset="UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 body{
 	background: url("../imagens/backgrounds/background-artwork2.jpg");
 	background-size: 1920px 1900px;
 }
 
-div#interface {
+/*Infos Iniciais*/
+div#infos {
+	width: 900px;
+	background-image: url("../imagens/backgrounds/background2.gif");
+	margin: 160px auto -90px auto;
+	box-shadow: 0px 0px 10px black;
+	padding: 10px 10px 150px 15px;
+	top: 0px;
+	
+}
+
+figure#serverinfo{
+	position: absolute;
+	left: 590px;
+	top: 270px;
+	box-shadow: 5px 5px 10px black;
+	border: 2px solid gray;
+}
+
+figure#quests{
+	position: absolute;
+	left: 760px;
+	top: 270px;
+	box-shadow: 5px 5px 10px black;
+	border: 2px solid gray;
+}
+
+figure#events{
+	position: absolute;
+	left: 930px;
+	top: 270px;
+	box-shadow: 5px 5px 10px black;
+	border: 2px solid gray;
+}
+
+figure#downloads{
+	position: absolute;
+	left: 1100px;
+	top: 270px;
+	box-shadow: 5px 5px 10px black;
+	border: 2px solid gray;
+}
+
+
+/*Prologo*/
+div#prologo {
 	width: 900px;
 	background-image: url("../imagens/backgrounds/background2.gif");
 	margin: 120px auto 0px auto;
 	box-shadow: 0px 0px 10px black;
-	padding: 20px 10px 8px 15px;
+	padding: 0px 10px 8px 15px;
+	top: 0px;
+}
+
+
+/* Interface */
+div#interface {
+	width: 900px;
+	background-image: url("../imagens/backgrounds/background2.gif");
+	margin: 20px auto 0px auto;
+	box-shadow: 0px 0px 10px black;
+	padding: 0px 10px 8px 15px;
 }
 
 h1 {
@@ -33,9 +89,37 @@ p{
 	text-indent: 5px;
 }
 
+figure#rastafari{
+	position: relative;
+	border: 2px solid gray;
+}
+
+div#border {
+	position: relative;
+	width: 925px;
+	left: -15px;
+	top: -10px;
+	background-image: url("../imagens/layouts/background/title-background-green.gif");
+}
+
+div#border_1 {
+	position: relative;
+	width: 925px;
+	left: -55px;
+	top: -10px;
+	background-image: url("../imagens/layouts/background/title-background-green.gif");
+}
+
+div#border_2 {
+	position: relative;
+	width: 925px;
+	left: -55px;
+	background-image: url("../imagens/layouts/background/title-background-green.gif");
+}
+
 header#cabecalho {
 	border-bottom: 1px #606060 solid;
-	height: 600px;
+	height: 250px;
 }
 
 header#cabecalho h1{
@@ -44,9 +128,6 @@ header#cabecalho h1{
 	color: #606060;
 	text-shadow: 1px 1px 10px rgba(0,0,0,0.6);
 }
-
-
-
 
 /* Formatação de imagens com legendas */
 figure.foto-legenda{
@@ -103,9 +184,9 @@ nav#menu ul{
 
 nav#menu li{
 	background-image: url("../imagens/layouts/buttons/button-opt.gif");
-	padding-left: 15px;
+	padding-left: 50px;
 	padding-bottom: 5px;
-	padding-right: 54px;
+	padding-right: 17px;
 	padding-top: 10px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -130,6 +211,79 @@ nav#menu a:hover{
 	color: white;
 }
 
+/* Banners */
+div#rastafari-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 3px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-rasta.gif");
+}
+
+div#guilds-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 32px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-forum.gif");
+}
+
+div#community-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 67px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-community.gif");
+}
+
+div#account-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 98px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-account.gif");
+}
+
+div#dowloads-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 132px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-library.gif");
+}
+
+div#quests-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 165px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-events.gif");
+}
+
+div#support-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 197px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-support.gif");
+}
+
+div#shop-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 232px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-shops.gif");
+}
+
 /* Lateral Esquerda */
 div#lateral-esquerda {
 	position: absolute;
@@ -139,18 +293,47 @@ div#lateral-esquerda {
 
 figure#buttontop img{
 	position: relative;
-	top: -35px;
+	top: -40px;
 	left: -50px;
 }
 
 figure#buttonbottom {
-	position: relative;
-	top: 165px;
+	position: absolute;
+	background-image: url("../imagens/layouts/buttons/button-opt-bottom.gif");
+	height: 10px;
 	left: -50px;
+	top: 413px;
+		
 }
+
 
 figure#acimamenu {
 	position: relative;
 	left: -60px;
 	top: -10px;
+}
+
+/* Lateral Direita */
+figure#pedestal{
+	position: absolute;
+	top: 60px;
+	left: 1420px;
+}
+
+figure#gaz{
+	position: absolute;
+	top: 30px;
+	left: 1438px;
+}
+
+figure#lateralshop{
+	position: absolute;
+	top: 160px;
+	left: 1405px;
+}
+
+figure#coins-decoration{
+	position: absolute;
+	top: 193px;
+	left: 1415px;
 }
