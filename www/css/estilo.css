@@ -1,27 +1,30 @@
 @charset="UTF-8";
 
+
 body{
-	background-image: url("C:/Users/Victor/Desktop/Meu Site/Rastafari Website/imagens/background-artwork4.jpg");
-	background-size: 1920px 1500px;
+	background: url("../imagens/backgrounds/background-artwork2.jpg");
+	background-size: 1920px 1900px;
 }
 
 div#interface {
-	width: 1000px;
-	background-image: url("C:/Users/Victor/Desktop/Meu Site/Rastafari Website/imagens/background2.gif");
-	margin: 10px auto 0px auto;
+	width: 900px;
+	background-image: url("../imagens/backgrounds/background2.gif");
+	margin: 120px auto 0px auto;
+	box-shadow: 0px 0px 10px black;
+	padding: 20px 10px 8px 15px;
 }
 
 h1 {
 	font-family: Arial;
 	font-size: 30;
-	color: yellow;
+	color: gray;
 	text-shadow: 2px 2px 2px black;
 }
 
 h2 {
 	font-family: Arial;
 	font-size: 15;
-	color: black;
+	color: rgba(0,0,0,.7);
 	text-indent: 5px;
 }
 
@@ -29,7 +32,18 @@ p{
 	text-align: justify;
 	text-indent: 5px;
 }
-/* Global */
+
+header#cabecalho {
+	border-bottom: 1px #606060 solid;
+	height: 600px;
+}
+
+header#cabecalho h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 30pt;
+	color: #606060;
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.6);
+}
 
 
 
@@ -67,10 +81,11 @@ figure.foto-legenda:hover figcaption{
 /* Formatação foto sem legenda */
 figure.foto {
 	position: relative;
-	border: 1px solid white;
-	width: 800px;
+	/*border: 1px solid white;*/
+	width: 750px;
+	left: -20px;
 	box-shadow: 3px 3px 10px black;
-	background-color: rgba(0,0,0,.6);
+	background-color: rgba(0,0,0,.1);
 }
 
 /* Formatação Menu */
@@ -82,31 +97,60 @@ nav#menu ul{
 	list-style: none;
 	text-transform: uppercase;
 	position: absolute;
-	top: 60px;
-	left: 1000px;
+	top: 150px;
+	left: -20px;
 }
 
 nav#menu li{
-	display: inline-block;
-	background-color: #dddddd;
-	padding: 10px;
-	margin: 2px;
+	background-image: url("../imagens/layouts/buttons/button-opt.gif");
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding-right: 54px;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: -25px;
 	-webkit-transition: background-color 0.4s;
 	transition: background-color 0.4s;
 }
 
 nav#menu li:hover{
-	background-color: #606060;
+	background-color: white;
 }
 
 nav#menu h1{
 	display: none;
 }
 nav#menu a{
-	color: black;
+	color: yellow;
 	text-decoration: none;
 }
 
 nav#menu a:hover{
 	color: white;
+}
+
+/* Lateral Esquerda */
+div#lateral-esquerda {
+	position: absolute;
+	top: 0px;
+	left: 300px;
+}
+
+figure#buttontop img{
+	position: relative;
+	top: -35px;
+	left: -50px;
+}
+
+figure#buttonbottom {
+	position: relative;
+	top: 165px;
+	left: -50px;
+}
+
+figure#acimamenu {
+	position: relative;
+	left: -60px;
+	top: -10px;
 }
