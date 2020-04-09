@@ -1,0 +1,21 @@
+#charset "UTF-8";
+
+section#conteudo {
+	position: relative;
+	width: 1000px;
+	margin: auto;
+	
+}
+
+iframe#frame-news {
+	position: relative;
+	top: -370px;
+	left: 340px;
+	width: 500px;
+	height: 280px;
+	border: none;
+}
+
+iframe#frame-news::-webkit-scrollbar {
+	display: none;
+} 
