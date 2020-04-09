@@ -1,0 +1,427 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+body{
+	width: 100%;
+	position: relative;
+	height: 100%;
+	margin: 160px 0px 0px 200px;
+	padding: 0px 0px 0px 0px;
+	background: url("../imagens/backgrounds/background-artwork2.jpg") no-repeat;
+	background-size: 1920px 1900px;
+	background-color: #051122;
+	top: 100px;
+}
+
+a{
+	color: #606060;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*Infos Iniciais Tabela*/
+div#infos-table {
+	width: 900px;
+	background-image: url("../imagens/backgrounds/background2.gif");
+	margin: 160px auto -140px auto;
+	box-shadow: 0px 0px 10px black;
+	padding: 0px 10px 0px 15px;
+	top: 0px;
+}	
+
+table#tabela-infos {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+
+table#tabela-infos td {
+	background-color: #debb9d;
+	text-align: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left : 50px;
+	padding-right: 50px;
+}
+
+table#tabela-infos p {
+	font-size: 13pt;
+	text-shadow: none;
+	padding: 1px 2px 1px 2px;
+	margin: 3px 10px 3px 10px;
+	
+}
+
+/* Infos Iniciais Interface */
+div#infos {
+	width: 900px;
+	background-image: url("../imagens/backgrounds/background2.gif");
+	margin: 160px auto -90px auto;
+	box-shadow: 0px 0px 10px black;
+	padding: 10px 10px 0px 15px;
+	top: 0px;
+	
+}
+
+div.box {
+	width: 110px;
+	display: inline-block;
+	padding: 10px 60px 10px 10px;
+	margin: 0px 0px 0px 40px;
+}
+
+
+figure#serverinfo{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	box-shadow: 5px 5px 10px black;
+	border: 2px solid gray;
+	width: 110px;
+}
+
+figure#quest {
+	position: relative;
+	left: 200px;
+	top: -103px;
+	box-shadow: 5px 5px 10px black;
+	border: 2px solid gray;
+	width: 110px;
+}
+
+figure#events{
+	position: relative;
+	left: 400px;
+	top: -206px;
+	box-shadow: 5px 5px 10px black;
+	border: 2px solid gray;
+	width: 110px;
+}
+
+figure#downloads{
+	position: relative;
+	left: 600px;
+	top: -312px;
+	box-shadow: 5px 5px 10px black;
+	border: 2px solid gray;
+	width: 110px;
+}
+
+
+/*Prologo*/
+div#prologo {
+	width: 900px;
+	background-image: url("../imagens/backgrounds/background2.gif");
+	margin: 120px auto 0px auto;
+	box-shadow: 0px 0px 10px black;
+	padding: 0px 10px 8px 15px;
+	top: 0px;
+}
+
+
+/* Interface */
+div#interface {
+	width: 900px;
+	background-image: url("../imagens/backgrounds/background2.gif");
+	margin: 20px auto 0px auto;
+	box-shadow: 0px 0px 10px black;
+	padding: 0px 10px 8px 15px;
+}
+
+h1 {
+	font-family: Arial;
+	font-size: 30;
+	color: gray;
+	text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+	font-family: Arial;
+	font-size: 15;
+	color: rgba(0,0,0,.7);
+	text-indent: 5px;
+}
+
+p{
+	text-align: left;
+	text-indent: 10px;
+}
+
+div#interface header#cabecalho {
+	margin-bottom: 30px;
+}
+
+section#conteudo img{
+	position: relative;
+	left: -60px;
+	
+}
+
+figure#rastafari{
+	position: relative;
+	border: 2px solid gray;
+}
+
+div#border {
+	position: relative;
+	width: 925px;
+	left: -15px;
+	top: -10px;
+	background-image: url("../imagens/layouts/background/title-background-green.gif");
+}
+
+div#border_1 {
+	position: relative;
+	width: 925px;
+	left: -55px;
+	top: -10px;
+	background-image: url("../imagens/layouts/background/title-background-green.gif");
+}
+
+div#border_2 {
+	position: relative;
+	width: 925px;
+	left: -55px;
+	background-image: url("../imagens/layouts/background/title-background-green.gif");
+}
+
+header#cabecalho {
+	border-bottom: 1px #606060 solid;
+	height: 430px;
+}
+
+header#cabecalho h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 30pt;
+	color: #606060;
+	text-shadow: 1px 1px 10px rgba(0,0,0,0.6);
+}
+
+/* Rodape */
+footer#rodape {
+	position: relative;
+	border-top: 1px solid black;
+	margin-top: 10px;
+}
+
+footer#rodape p {
+	text-align: center;
+}
+
+/* Formatação de imagens com legendas */
+figure.foto-legenda{
+	position: relative;
+	border: 4px solid white;
+	width: 800px;
+	box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img{
+		width: 100%;
+		height: 100%;
+}
+
+figure.foto-legenda figcaption {
+		opacity: 0;
+		position: absolute;
+		top:0px;
+		background-color: rgba(0,0,0,.4);
+		color: white;
+		width: 100%;
+		height: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+		transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+	opacity: 1;
+}
+
+/* Formatação foto sem legenda */
+figure.foto {
+	position: relative;
+	/*border: 1px solid white;*/
+	width: 750px;
+	left: -20px;
+	box-shadow: 3px 3px 10px black;
+	background-color: rgba(0,0,0,.1);
+}
+
+/* Formatação Menu */
+nav#menu {
+	position: absolute;
+	display: block;
+	top: -160px;
+
+	
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 150px;
+	left: -240px;
+}
+
+nav#menu li{
+	background-image: url("../imagens/layouts/buttons/button-opt.gif");
+	padding-left: 50px;
+	padding-bottom: 5px;
+	padding-right: 17px;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: -25px;
+	-webkit-transition: background-color 0.4s;
+	transition: background-color 0.4s;
+}
+
+nav#menu li:hover{
+	background-color: white;
+}
+
+nav#menu h1{
+	display: none;
+}
+nav#menu a{
+	color: yellow;
+	text-decoration: none;
+}
+
+nav#menu a:hover{
+	color: white;
+}
+
+/* Banners */
+div#rastafari-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 3px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-rasta.gif");
+}
+
+div#guilds-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 32px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-forum.gif");
+}
+
+div#community-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 67px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-community.gif");
+}
+
+div#account-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 98px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-account.gif");
+}
+
+div#dowloads-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 132px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-library.gif");
+}
+
+div#quests-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 165px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-events.gif");
+}
+
+div#support-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 197px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-support.gif");
+}
+
+div#shop-banner {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 232px;
+	left: 23px;
+	background-image: url("../imagens/layouts/icons/icon-shops.gif");
+}
+
+/* Lateral Esquerda */
+div#lateral-esquerda {
+	position: absolute;
+	top: 0px;
+	left: 300px;
+}
+
+figure#buttontop img{
+	position: relative;
+	top: -40px;
+	left: -270px;
+}
+
+figure#buttonbottom {
+	position: absolute;
+	background-image: url("../imagens/layouts/buttons/button-opt-bottom.gif");
+	height: 10px;
+	left: -270px;
+	top: 413px;
+		
+}
+
+
+figure#acimamenu {
+	position: relative;
+	left: -270px;
+	top: -10px;
+}
+
+/* Lateral Direita */
+figure#pedestal{
+	position: absolute;
+	top: 60px;
+	left: 1420px;
+}
+
+figure#gaz{
+	position: absolute;
+	top: 30px;
+	left: 1438px;
+}
+
+figure#lateralshop{
+	position: absolute;
+	top: 160px;
+	left: 1405px;
+}
+
+figure#coins-decoration{
+	position: absolute;
+	top: 193px;
+	left: 1415px;
+}
+
