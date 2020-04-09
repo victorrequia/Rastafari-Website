@@ -5,32 +5,76 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>Rastafari-Servergame</title>
-	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
-
-
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 0px)" href="css/small.css"/>
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1000px)" href="css/estilo.css"/>
+	<link rel="stylesheet" href="iframes/news-css.css"/>
+	<link rel="icon" href="imagens/items/hero-axe.gif"/>
+	
 </head>
+
 <body>
+	<!- Menu de navegação direita ->
+	<div id="infos-table">
+		<nav id="menu">
+		<h1>Menu Pincipal</h1>
+		<ul type="disc">
+			<li><a href="index.html">Rastafari<div id="rastafari-banner"></div></a></li>
+			<li><a href="index.html">Guilds<div id="guilds-banner"></div></a></li>
+			<li><a href="layouts/community.html"> Community<div id="community-banner"></div></a></li>
+			<li><a href="layouts/account-management.html">Account<div id="account-banner"></div></a></li>
+			<li><a href="index.html">Downloads<div id="dowloads-banner"></div></a></li>
+			<li><a href="index.html">Quests<div id="quests-banner"></div></a></li>
+			<li><a href="index.html">Support<div id="support-banner"></div><a></li>
+			<li><a href="index.html">Shop<div id="shop-banner"></div></a></li>
+		</ul>
+
+		<figure id="acimamenu">
+			<img src="imagens/layouts/background/tibiabackground-top.gif"/>
+		</figure>
+		<figure id="buttontop">
+			<img src="imagens/layouts/buttons/button-opt-top.gif"/>
+		</figure>
+		<figure id="buttonbottom">
+			<img src="imagens/layouts/buttons/button-opt-bottom.gif">
+		</figure>
+		</nav>
+		
+		<!- imagens complementares do menu ->
+		
+	</div>
+
+	
+	<!- Bem vindo e Informações ->
+		<div id="infos-table">
+		<div id="border">0</div>
+		<h1 style="text-align: center">RASTAFARI SERVERGAME<h1>
+		<table id="tabela-infos">
+			<tr><td><p>IP: rastafari-servergame.com</p></td> <td><p>Version: 10.94-10.98</p></td> <td><p>Port: 7171</p></td></tr>
+			<tr><td colspan="1"><p>Casas: 35<p></td> <td colspan="2"><p>Guilds criadas: 0</p></td></tr>
+			<tr><td><p>Cidades: 3</p></td> <td colspan="2"><p>Criaturas novas: 20</p></td><tr>
+		</table>
+	</div> 
+
+	<!- Icones de Atalho ->
 	<div id="infos">
-			<div id="border">0</div>
-		<h1 style="text-align: center;">RASTAFARI SERVERGAME</h1>
+	<div id="border">0</div>
+		<div class="box">
+			<img src="imagens/layouts/icons/quest.jpg"/>
+		</div>
+		<div class="box">
+			<img src="imagens/layouts/icons/serverinfo.jpg"/>
+		</div>
+		<div class="box">
+			<img src="imagens/layouts/icons/events.jpg"/>
+		</div>
+		<div class="box">
+			<img src="imagens/layouts/icons/downloads.jpg"/>
+		</div>
 	</div>
 	
-	<figure id="serverinfo">
-		<img src="imagens/layouts/icons/serverinfo.jpg"/>
-	</figure>
-	
-	<figure id="quests">
-		<img src="imagens/layouts/icons/quest.jpg"/>
-	</figure>
-	
-	<figure id="events">
-		<img src="imagens/layouts/icons/events.jpg"/>
-	</figure>
-	
-	<figure id="downloads">
-		<img src="imagens/layouts/icons/downloads.jpg"/>
-	</figure>
 
+
+	<!- Objetivos ->
 	<div id="prologo">
 	<figure class="global">
 		<div id="border_1">0</div>
@@ -44,85 +88,50 @@
 		<figure id="rastafari">
 			<image src="imagens/backgrounds/background3.png"/>
 		</figure>
+		</figure>
 	</div>
 
+	<!- Noticias e prints ->
 	<div id="interface">
 	<header id="cabecalho">
-	<figure class="global">
+	<figure class="global"/>
 		<div id="border_2">0</div>
 		<h2>NEWS</h2>
-		<p>Atualizão 0.1</p>
-		<p><b>new monster: </b>tarantula</p>
-		<p><b>new item: </b>besta longa</p>
-		<p><b>new item: </b>hell clava</p>
-		<p><b>new item: </b>hero axe</p>
+		<section id="conteudo">
+			<img src="imagens/Noticias/atualizacao-01.gif" usemap="#meumapa"/>
+			<map name="meumapa">
+				<area shape="rect" coords="75,185,293,207" href="iframes/iframe-news.html#jaul" target="janela" />
+				<area shape="rect" coords="80,225,334,243" href="iframes/iframe-news.html#besta-longa" target="janela" />
+				<area shape="rect" coords="78,258,305,279" href="iframes/iframe-news.html#hell-clava" target="janela" />
+				<area shape="rect" coords="76,295,297,311" href="iframes/iframe-news.html#hero-axe" target="janela" />
+				</map>
+			<iframe src="iframes/iframe-news.html" name="janela" id="frame-news"></iframe>
+		</section>
 	</header>
 		
 		<h2>PRINTS</h2>
 		<figure class="foto-legenda">
-		<img src="imagens/backgrounds/print110.png"/>
-		<figcaption>
+			<img src="imagens/backgrounds/print110.png"/>
+			<figcaption>
 			<h3>UP LEVEL</h3>
 			<p>109 - 110</p>
-		</figcaption>
+			</figcaption>
 		</figure>
 		
 		<figure class="foto-legenda">
-		<img src="imagens/backgrounds/print8.png"/>
-		<figcaption>
+			<img src="imagens/backgrounds/print8.png"/>
+			<figcaption>
 			<h3>UP LEVEL</h3>
 			<p>7 - 8</p>
-		</figcaption>
+			</figcaption>
 		</figure>
-
-
-	</figure>
 	</div>
 	
-	<div id="lateral-esquerda">
-		<nav id="menu">
-		<h1>Menu Pincipal</h1>
-		<ul type="disc">
-			<li><a href="index.html">Rastafari<div id="rastafari-banner"></div></a></li>
-			<li><a href="index.html">Guilds<div id="guilds-banner"></div></a></li>
-			<li><a href="layouts/community.html"> Community<div id="community-banner"></div></a></li>
-			<li><a href="layouts/account-management.html">Account<div id="account-banner"></div></a></li>
-			<li><a href="index.html">Downloads<div id="dowloads-banner"></div></a></li>
-			<li><a href="index.html"">Quests<div id="quests-banner"></div></a></li>
-			<li><a href="index.html">Support<div id="support-banner"></div><a></li>
-			<li><a href="index.html">Shop<div id="shop-banner"></div></a></li>
-		</ul>
+	<!- Rodape ->
+	<footer id="rodape">
+		<p>copyright&copy by CipSoft GmbH. All rights reserved;</p>
+	</footer>
 
-		</nav>
-		
-		
-		<figure id="acimamenu">
-			<img src="imagens/layouts/background/tibiabackground-top.gif"/>
-		</figure>
-		<figure id="buttontop">
-			<img src="imagens/layouts/buttons/button-opt-top.gif"/>
-		</figure>
-		<figure id="buttonbottom">
-			<img src="imagens/layouts/buttons/button-opt-bottom.gif">
-		</figure>		
-		
-	</div>
-	
-		<div id="lateral-direita">
-		
-		<figure id="pedestal">
-			<img src="imagens/layouts/elements/pedestal-and-online.gif"/>
-		</figure>
-		<figure id="gaz">
-			<img src="imagens/layouts/elements/gaz.gif"/>
-		</figure>
-		<figure id="lateralshop">
-			<img src="imagens/layouts/elements/webshop.png"/>
-		</figure>
-				<figure id="coins-decoration">
-			<img src="imagens/layouts/elements/coins_decoration.png"/>
-		</figure>
-	</div>
 	
 
 	
