@@ -1,52 +1,114 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
+
 body{
-	background: url("../imagens/backgrounds/background-artwork2.jpg");
+	width: 100%;
+	position: relative;
+	height: 100%;
+	margin: 160px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background: url("../imagens/backgrounds/background-artwork2.jpg") no-repeat;
 	background-size: 1920px 1900px;
+	background-color: #051122;
+	top: 100px;
 }
 
-/*Infos Iniciais*/
+a{
+	color: #606060;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/*Infos Iniciais Tabela*/
+div#infos-table {
+	width: 900px;
+	background-image: url("../imagens/backgrounds/background2.gif");
+	margin: 200px auto -140px auto;
+	box-shadow: 0px 0px 10px black;
+	padding: 0px 10px 0px 15px;
+	top: 0px;
+}	
+
+table#tabela-infos {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+
+table#tabela-infos td {
+	background-color: #debb9d;
+	text-align: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left : 50px;
+	padding-right: 50px;
+}
+
+table#tabela-infos p {
+	font-size: 13pt;
+	text-shadow: none;
+	padding: 1px 2px 1px 2px;
+	margin: 3px 10px 3px 10px;
+	
+}
+
+/* Infos Iniciais Interface */
 div#infos {
 	width: 900px;
 	background-image: url("../imagens/backgrounds/background2.gif");
 	margin: 160px auto -90px auto;
 	box-shadow: 0px 0px 10px black;
-	padding: 10px 10px 150px 15px;
+	padding: 10px 10px 0px 15px;
 	top: 0px;
 	
 }
 
-figure#serverinfo{
-	position: absolute;
-	left: 590px;
-	top: 270px;
-	box-shadow: 5px 5px 10px black;
-	border: 2px solid gray;
+div.box {
+	width: 110px;
+	display: inline-block;
+	padding: 10px 60px 10px 10px;
+	margin: 0px 0px 0px 40px;
 }
 
-figure#quests{
-	position: absolute;
-	left: 760px;
-	top: 270px;
+
+figure#serverinfo{
+	position: relative;
+	left: 0px;
+	top: 0px;
 	box-shadow: 5px 5px 10px black;
 	border: 2px solid gray;
+	width: 110px;
+}
+
+figure#quest {
+	position: relative;
+	left: 200px;
+	top: -103px;
+	box-shadow: 5px 5px 10px black;
+	border: 2px solid gray;
+	width: 110px;
 }
 
 figure#events{
-	position: absolute;
-	left: 930px;
-	top: 270px;
+	position: relative;
+	left: 400px;
+	top: -206px;
 	box-shadow: 5px 5px 10px black;
 	border: 2px solid gray;
+	width: 110px;
 }
 
 figure#downloads{
-	position: absolute;
-	left: 1100px;
-	top: 270px;
+	position: relative;
+	left: 600px;
+	top: -312px;
 	box-shadow: 5px 5px 10px black;
 	border: 2px solid gray;
+	width: 110px;
 }
 
 
@@ -85,8 +147,18 @@ h2 {
 }
 
 p{
-	text-align: justify;
-	text-indent: 5px;
+	text-align: left;
+	text-indent: 10px;
+}
+
+div#interface header#cabecalho {
+	margin-bottom: 30px;
+}
+
+section#conteudo img{
+	position: relative;
+	left: -60px;
+	
 }
 
 figure#rastafari{
@@ -119,7 +191,7 @@ div#border_2 {
 
 header#cabecalho {
 	border-bottom: 1px #606060 solid;
-	height: 250px;
+	height: 430px;
 }
 
 header#cabecalho h1{
@@ -127,6 +199,17 @@ header#cabecalho h1{
 	font-size: 30pt;
 	color: #606060;
 	text-shadow: 1px 1px 10px rgba(0,0,0,0.6);
+}
+
+/* Rodape */
+footer#rodape {
+	position: relative;
+	border-top: 1px solid black;
+	margin-top: 10px;
+}
+
+footer#rodape p {
+	text-align: center;
 }
 
 /* Formatação de imagens com legendas */
@@ -171,7 +254,11 @@ figure.foto {
 
 /* Formatação Menu */
 nav#menu {
+	position: absolute;
 	display: block;
+	top: -160px;
+
+	
 }
 
 nav#menu ul{
@@ -179,7 +266,7 @@ nav#menu ul{
 	text-transform: uppercase;
 	position: absolute;
 	top: 150px;
-	left: -20px;
+	left: -240px;
 }
 
 nav#menu li{
@@ -294,14 +381,14 @@ div#lateral-esquerda {
 figure#buttontop img{
 	position: relative;
 	top: -40px;
-	left: -50px;
+	left: -270px;
 }
 
 figure#buttonbottom {
 	position: absolute;
 	background-image: url("../imagens/layouts/buttons/button-opt-bottom.gif");
 	height: 10px;
-	left: -50px;
+	left: -270px;
 	top: 413px;
 		
 }
@@ -309,7 +396,7 @@ figure#buttonbottom {
 
 figure#acimamenu {
 	position: relative;
-	left: -60px;
+	left: -270px;
 	top: -10px;
 }
 
